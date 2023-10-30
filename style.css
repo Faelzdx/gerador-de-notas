@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Arvo&family=Noto+Sans:wght@300;400&family=Open+Sans:wght@300;400&family=Poppins:wght@300;400&family=Sora:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    padding: 10px;
+    height: 100vh;
+    background: linear-gradient(135deg, #DFDFDF, #CFCFCF, #BFBFBF, #AFAFAF);
+  }
+  
+  .container {
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .addNote-content {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    border: 1px dashed gray;
+    height: 150px;
+    cursor: pointer;
+  }
+  
+  .icon-plus {
+    padding: 0 14px;
+    border: 1px solid;
+    width: fit-content;
+    border-radius: 50%;
+    font-size: xx-large;
+  }
+  
+  .content {
+    display: contents;
+  }
+  
+  textarea {
+    padding: 5px;
+    padding-top: 14px;
+    outline: none;
+    resize: none;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    width: 200px;
+    height: 150px;
+  }
+  
+  textarea::-webkit-scrollbar {
+    width: 4px;
+  }
+  textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #4B4453; 
+  }
+  
+  
+  .item {
+    position: relative;
+    width: 200px;
+    height: 150px;
+  }
+  
+  .remove {
+    position: absolute;
+    right: 6px;
+    cursor: pointer;
+    color: #f2f2f2;
+  }
